@@ -1,0 +1,62 @@
+*{
+    font-family: 'Poppins';
+}
+
+.main-navigation {
+    background-color: rgba(26, 26, 26, 0.6);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    max-width: 1320px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.navbar .gp_logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.gp-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.gp-menu li {
+    list-style-type: none;
+}
+
+.gp-menu li a {
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.gp-menu li:last-child {
+    margin-left: 238px;
+}
+
+.gp-menu li:last-child a {
+    border: 2px solid #ffc451;
+    font-weight: 400;
+    padding: 7px 25px 8px 25px;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+}
+
+.gp-menu li:last-child a:hover {
+    background-color: #ffc451;
+    color: #444 !important;
+}

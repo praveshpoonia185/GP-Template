@@ -1,0 +1,9 @@
+name: GP Template
+description: 'This is My GP Template Theme'
+type: theme
+core_version_requirement: ^8 || ^9
+version: VERSION
+base theme: classy
+screenshot: gp-template.png 
+libraries:
+  - gp_theme/gp-style

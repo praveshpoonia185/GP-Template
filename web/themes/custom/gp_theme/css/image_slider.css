@@ -1,0 +1,46 @@
+.image-slider {
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.slider-image img {
+    max-width: 116px;
+    height: 42px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+.slider-image .field__item {
+    display: flex !important;
+    justify-content: center;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+
+    list-style-type: none;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+
+    border: none;
+    border-radius: 100%;
+    background-color: #ddd;
+
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: orange;
+}
