@@ -1,0 +1,97 @@
+.service-section {
+    margin-top: 60px;
+}
+
+.service-heading {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.service-section .field--name-field-service-subheadin {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 1px;
+    color: #aaaaaa;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.field--name-field-service-subheadin::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background: #ffde9e;
+    margin: 0 10px;
+}
+
+.service-section h2 {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #151515;
+    margin-bottom: 40px;
+}
+
+.service-grid--box {
+    width: 380px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+}
+
+.service-grid--box .service-icon {
+    margin: 0 auto;
+    padding: 10px;
+    background: #ffc451;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.service-grid--box h4 {
+    color: #151515;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.service-grid--box .field--name-field-service-grid-paragrap {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #444444;
+}
+
+.service-grid {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.service-grid .field--name-field-service-grid {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-grid--box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+    transform: translateY(-10px);
+}
+
+.service-grid--box:hover .service-icon {
+    color: #fff;
+}
