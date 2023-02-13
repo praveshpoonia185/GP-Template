@@ -10,6 +10,7 @@
     object-fit: cover;
     opacity: 0.5;
 }
+
 .slider-image .field__item {
     display: flex !important;
     justify-content: center;
@@ -43,4 +44,60 @@
 
 .slick-dots li.slick-active button {
     background-color: orange;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    margin-top: 60px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.hero-image {
+    max-width: 660px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 458px;
+    transition: all .4s ease-in;
+}
+
+.hero-image img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.hero-grid {
+    max-width: 636px;
+}
+
+.hero-grid--box {
+    padding-left: 60px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.hero-grid--box::before {
+    content: "\f1b2";
+    position: absolute;
+    font-family: fontAwesome;
+    left: 0;
+    color: #ffc451;
+    font-size: 3rem;
+}
+
+.hero-grid--box h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero-grid--box .field--name-field-griddescription {
+    font-size: 15px;
+    color: #848484;
 }
