@@ -8,8 +8,11 @@ gp-style:
       css/navbar.css: {}
       css/image_slider.css: {}
       css/article_section.css: {}
+      css/service_section.css: {}
+      css/portfolio_section.css: {}
   js:
     js/navbar.js: {}    
+    js/rellax.min.js: {}
   dependencies:
     - core/drupal
     - core/jquery

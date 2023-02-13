@@ -1,0 +1,191 @@
+.portfolio-section {
+    margin-top: 60px;
+}
+
+.portfolio-heading {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.portfolio-heading h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.portfolio-heading h2::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background: #ffde9e;
+    margin-left: 100px;
+    top: 0px;
+}
+
+.portfolio-heading .field--name-field-portfolio-heading {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #151515;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.portfolio-grid {
+    max-width: 1320px;
+    margin: auto;
+    height: 1267px;
+}
+
+.portfolio-grid .field--name-field-portfolio-grid {
+    height: 1267px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+}
+
+
+.portfolio__box {
+    width: 416px;
+    position: relative;
+    transition: all .3s ease-in;
+    cursor: pointer;
+    overflow: hidden;
+    height: 420px;
+}
+
+.portfolio__box--image {
+    width: 416px;
+    overflow: hidden;
+}
+
+.portfolio__box--image img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+
+.portfolio__box:hover .portfolio__box--image img {
+    transform: scale(1.3);
+}
+
+.portfolio__box:hover .portfolio-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 21, 21, 0.6);
+    transition: all .3s ease-in-out;
+}
+
+.portfolio__box:hover .portfolio__box--content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.portfolio__box--content h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.portfolio__box--content .field--name-field-portfolio-image-subheading {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.portfolio__box--content .fontawesome-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.portfolio-icon {
+    font-weight: 400;
+    color: #fff;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(2) .portfolio__box {
+    height: 618px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(2) .portfolio__box .portfolio__box--image img {
+    height: 618px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(3) .portfolio__box {
+    height: 278px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(3) .portfolio__box .portfolio__box--image img {
+    height: 278px;
+}
+
+
+.field--name-field-portfolio-grid .field__item:nth-child(4) .portfolio__box {
+    height: 620px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(4) .portfolio__box .portfolio__box--image img {
+    height: 620px;
+}
+
+
+.field--name-field-portfolio-grid .field__item:nth-child(5) .portfolio__box {
+    height: 276px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(5) .portfolio__box .portfolio__box--image img {
+    height: 276px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(6) .portfolio__box {
+    height: 234px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(6) .portfolio__box .portfolio__box--image img {
+    height: 234px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(7) .portfolio__box {
+    height: 234px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(7) .portfolio__box .portfolio__box--image img {
+    height: 234px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(8) .portfolio__box {
+    height: 234px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(8) .portfolio__box .portfolio__box--image img {
+    height: 234px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(9) .portfolio__box {
+    height: 234px;
+}
+
+.field--name-field-portfolio-grid .field__item:nth-child(9) .portfolio__box .portfolio__box--image img {
+    height: 234px;
+}
